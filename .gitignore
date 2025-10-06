@@ -1,0 +1,42 @@
+# 認証情報（セキュリティ上の理由で除外）
+credentials/
+*.json
+*.pickle
+
+# ログファイル
+*.log
+app.log
+
+# 一時ファイル
+.DS_Store
+Thumbs.db
+
+# Python関連
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+
+# 環境変数ファイル
+.env
+.env.local
+
+# Streamlit設定（ローカル開発用）
+.streamlit/secrets.toml
+
+# 開発・テスト用ファイル
+test_*.py
+*_test.py
+browser_google_auth.py
+codespace_google_auth.py
+manual_google_auth.py
+test_google_drive.py
+
+# バックアップファイル
+*.backup
+app_*.py
+
+# その他の開発ファイル
+json/
+exec -l /
