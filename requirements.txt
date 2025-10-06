@@ -4,4 +4,4 @@ google-cloud-aiplatform
 gspread
 google-auth
 requests
-python-dateutil
+tweepy
